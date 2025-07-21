@@ -1,0 +1,21 @@
+<style>
+    .bar {
+        border: 4px solid blue;
+    }
+</style>
+
+<b>Hello!</b>
+<div class='bar'>
+
+</div>
+<br><br> HOW DID YOU DUCKING FIND ME
+
+<br><br>THIS IS THE MOST RANDOM WEB / URL IN THE WORLD
+
+<br><br>
+
+<script>
+    let currentTime = new Date(Date.now());
+    document.currentScript.outerHTML = `you were last trolled on ${currentTime.toLocaleString()}`;  
+</script>
+<hr>
