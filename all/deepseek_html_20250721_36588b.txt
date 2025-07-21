@@ -1,0 +1,29 @@
+<style>
+    .bar {
+        border: 4px solid blue;
+    }
+</style>
+
+<b>Բարև՜</b>
+<div class='bar'>
+
+</div>
+<br><br>Ես ձեզ տրոլ եմ արել:
+
+<br><br>Կարող էիք հաքվել, բայց ոչ, դուք չհաքվեցիք:
+
+<br><br>Բարեբախտաբար.....
+
+<br><br>այնպես որ մնացեք ապահով:
+
+<br><br>Մի հաքվեք:
+
+<br><br>Պատահական բաներ չբեռնելը այսօրվա դասն է:
+
+<br><br>
+
+<script>
+    let currentTime = new Date(Date.now());
+    document.currentScript.outerHTML = `ձեզ վերջին անգամ տրոլ են արել ${currentTime.toLocaleString()}`;  
+</script>
+<hr>
